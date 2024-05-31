@@ -544,6 +544,12 @@ section {
   background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 767px) {
+  .about .about-img {
+    display: none;
+  }
+
+}
 .about h3 {
   font-weight: 700;
   font-size: 36px;
@@ -569,6 +575,7 @@ section {
 }
 
 .about .call-us p {
+  /* text-align: justify; */
   font-size: 28px;
   font-weight: 700;
   color: var(--color-primary);
@@ -581,6 +588,7 @@ section {
 
 .about .content ul li {
   padding: 0 0 8px 26px;
+  text-align: justify;
   position: relative;
 }
 
